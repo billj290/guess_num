@@ -1,4 +1,8 @@
 import random
+start = input('請決定隨機數字起始值: ')
+end = input('請決定隨機數字結束值: ')
+start = int(start)
+end = int(end)
 r = random.randint(1, 100)
 count = 0
 while True:
